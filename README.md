@@ -41,20 +41,21 @@ near call <contract-id> play '{"gameId": <game-id>, "selectedItem": "Tas"}' --ac
 
 
 
-## example execution
-
+## Example execution
+```
 1. player =
 near call dev-1672248296290-45183883187245 createGame --account_id ncdtry.testnet
 2. player =
 near call dev-1672248296290-45183883187245 joinGame '{"gameId":926274332}' --account_id ncdtry2.testnet
-
+```
 **Don't Forget ncdtry.testnet and ncdtry2.testnet are my wallets**
 
-## selected part
-
+## Selection Part
+```
 1. player =
 near call dev-1672248296290-45183883187245 play '{"gameId":926274332, "selectedItem": "Makas"}' --account_id ncdtry.testnet
 
 2. player =
 near call dev-1672248296290-45183883187245 play '{"gameId":926274332, "selectedItem": "Kagit"}' --account_id ncdtry2.testnet
-# bitirme_projesi
+```
+# Remzi Emre KAHVECİ
